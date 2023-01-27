@@ -15,15 +15,29 @@
         AdventAI
     </a>
       </div>
-      <ul class="links">
-        <li><a href="about.html">about us</a></li>
-        <li><a href="road.html">road map</a></li>
-        <li><a href="app.html">app</a></li>
-      </ul>
+      <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <div class="dropdown">
+          <button onclick="dropdownFunction()" class="dropbtn">Services</button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#">Option 1</a>
+            <a href="#">Option 2</a>
+            <a href="#">Option 3</a>
+          </div>
+        </div>
+        <a href="#">Contact</a>
+      </div>
       <button class="notifications">
         1 new notification
       </button>
       <div class="profile-image"></div>
     </div>
+
+    
+    <div id="footer">
+      <p>Copyright © 2023 AdventAI</p>
+    </div>
+    
   </body>
 </html>

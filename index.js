@@ -36,3 +36,4 @@ window.onscroll = function() {
     document.getElementById("footer").style.display = "none";
   }
 };
+

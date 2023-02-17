@@ -1,6 +1,7 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');*/
 
 body {
+ /*font should be somehitng like Sans Typewriter*/
   flex: 1 1 auto;
   margin: 0;
   background: #eee;
@@ -78,6 +79,7 @@ ul {
 
 .navbar {
   display: flex;
+  
   justify-content: space-between;
   align-items: center;
   background-color: #333;
@@ -123,6 +125,8 @@ ul {
   border: none;
   cursor: pointer;
 }
+
+
 
 
 

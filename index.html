@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AdventAI</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="JavaScript" href="index.js">
+
+
   </head>
   <body>
     <div class="header"> <!-- i think the header is empty, fix later-->
@@ -13,21 +16,32 @@
     </div>
       
       <div class="navbar">
-        <a href="index.html">Home</a>
+        <a href="index.html">Home</a> <!--relocate- so logo takes user back to home->
         <a href="about.html">About</a>
-        <a href="app.html"> App</a> <!-- bring app into index.html insteead of having its own page, it'll be at the bottom ish-->
+        
         <div class="logo"><a href="https://adveentai.com/">AdventAI</a></div> <!-- Make sure to add roadmap into nav-->
         <div class="dropdown">
-          <button onclick="dropdownFunction()" class="dropbtn">Services</button>
+
+          <button onclick="dropdownFunction()" class="dropbtn">About</button>
          
           <div id="myDropdown" class="dropdown-content">
-            <a href="#">Option 1</a>
+            <a href="app.html">App</a>
+            <a href="#">Option 2</a>
+            <a href="#">Option 3</a>
+          </div>
+        </div>
+
+          <button onclick="dropdownFunction()" class="dropbtn">Products</button>
+         
+          <div id="myDropdown" class="dropdown-content">
+            <a href="app.html">App</a>
             <a href="#">Option 2</a>
             <a href="#">Option 3</a>
           </div>
         </div>
         <a href="#">Contact</a>
         <a href="road.html">Roadmap</a>
+        
         <div class="profile-image"></div>
       </div>
       

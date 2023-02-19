@@ -1,20 +1,16 @@
-function dropdownFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
-  
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
+
+const dropdowns = document.querySelectorAll('.dropdown');
+
+dropdowns.forEach((dropdown) => {
+  const trigger = dropdown.querySelector('a');
+  const menu = dropdown.querySelector('.dropdown-menu');
+
+  trigger.addEventListener('click', (e) => {
+    e.preventDefault();
+    menu.classList.toggle('open');
+  });
+});
+
   
 
   // Get the height of the document

@@ -12,14 +12,15 @@ body {
 .header {
   background: rgb(49, 42, 42);
   display: flex;
+  
   justify-content: space-between;
   justify-content: center;
+  padding-bottom: 30px;
  
   flex-direction: row;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
-  border: 8px;
-  border: rgb(238, 16, 16);
+  
 }
 
 .profile-image {
@@ -81,8 +82,13 @@ ul {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  align-content: space-between;
   align-items: center;
+  width: 800px;
+ /*what if the reson i cant do justify content is bc the content 
+ is already doing that, what if the content has already filled the container
+ its just the container is to small, so it dosetn look like its working
+ but in reality it is*/
 }
 
 .navbar {
@@ -90,6 +96,7 @@ nav {
   list-style: none;
   
   margin: 0;
+  padding-bottom: 20px;
   padding: 0;
 }
 
@@ -110,7 +117,7 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: #333;
+  background-color: #3b3939;
   border-left: 2px solid #fff;
 }
 
